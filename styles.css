@@ -46,7 +46,7 @@ h1 {
     font-weight: bold;
 }
 
-.Box a:visited {
+.Box a:visited, a:link, a:focus, a:active {
     text-decoration: none;
     color: #757575;
 }
@@ -55,6 +55,38 @@ h1 {
     color: #e2e2e2;
 }
 
+<<<<<<< Updated upstream
 .Box a:visited{
     color: #e2e2e2;
 }
+=======
+.searchBox{
+    margin:auto;
+    margin-bottom: 10%;
+    padding: 5px;
+    padding-left: 10px;
+    padding-right: 20px;
+    width: max-content;
+    display: flex;
+    align-items: center;
+    border-color: #757575;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 28px;
+    transition: color 0.25s;
+}
+
+.searchBox:focus-within{
+    color: #e2e2e2;
+}
+
+.search-input{
+    color: #757575;
+    margin-left: 5px;
+    font-size: 16px;
+    outline: none;
+    border: none;
+    background: transparent;
+}
+
+>>>>>>> Stashed changes
