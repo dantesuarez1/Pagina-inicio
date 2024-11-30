@@ -54,3 +54,7 @@ h1 {
 .Box a:hover{
     color: #e2e2e2;
 }
+
+.Box a:visited{
+    color: #e2e2e2;
+}
